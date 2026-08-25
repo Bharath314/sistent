@@ -98,6 +98,12 @@ export {
 } from './custom/permissions';
 
 export {
+  useAccessibleOrgs,
+  type UseAccessibleOrgsOptions,
+  type TriggerGetKeys
+} from './custom/useAccessibleOrgs';
+
+export {
   WidgetPicker,
   type WidgetPickerProps,
   type WidgetItem
